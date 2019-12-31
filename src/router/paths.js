@@ -6,13 +6,14 @@
 export default [
   {
     path: '',
+    name: 'Dashboard',
     // Relative to /src/views
-    view: 'PlatformList'
+    view: 'Dashboard'
   },
   {
-    path: '/user-profile',
-    name: 'User Profile',
-    view: 'UserProfile'
+    path: '/ecommerce-platforms',
+    name: 'eCommerce Platforms',
+    view: 'eCommercePlatforms'
   },
   {
     path: '/table-list',
@@ -20,9 +21,9 @@ export default [
     view: 'TableList'
   },
   {
-    path:'/platform-list',
+    path: '/booking-platforms',
     name: 'Platform List',
-    view :'PlatformList'
+    view: 'BookingPlatforms'
   },
   {
     path: '/dashboard',
